@@ -1,4 +1,4 @@
-/* Background color for the whole page */
+/* Global background and font styles */
 body {
     background-color: lightgray; /* Light gray background */
     font-family: Arial, sans-serif;
@@ -20,22 +20,33 @@ nav ul li a {
     display: inline-block;
 }
 
-/* Paragraph style for about section */
+/* Styling for About Me Page */
+body.about-me {
+    background-color: #f0f0f0;  /* Light gray background */
+    color: #333;  /* Dark text */
+    padding: 20px;
+    border-radius: 5px;  /* Optional: rounded corners */
+}
+
+/* Image styling */
+.about-image img {
+    width: 100%;  /* Makes the image responsive */
+    max-width: 400px;  /* Optional: limits the image width */
+    display: block;  /* Centers the image */
+    margin: 20px auto;  /* Centers the image and adds space around it */
+    border-radius: 10px;  /* Optional: adds rounded corners to the image */
+}
+
+/* Paragraph style */
 .about-website {
     color: blue; /* Blue text */
     font-size: 18px;
 }
 
-/* Adding color to the About Me section */
-.about-me {
-    background-color: #f0f0f0;  /* Light gray background */
-    color: #333;  /* Dark text */
-    padding: 20px;
-}
-
-/* Adding color to the Contact Me section */
-.contact {
+/* Styling for the Contact Me Page */
+body.contact-me {
     background-color: #f8f9fa;  /* Light background for contact section */
     color: #007bff;  /* Blue text */
     padding: 20px;
+    border-radius: 5px;
 }
