@@ -1,0 +1,41 @@
+/* Background color for the whole page */
+body {
+    background-color: lightgray; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* Header and navigation styles */
+header {
+    background-color: green; /* Green background for the header */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+nav ul li a {
+    color: white; /* White text color for navigation links */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* Paragraph style for about section */
+.about-website {
+    color: blue; /* Blue text */
+    font-size: 18px;
+}
+
+/* Adding color to the About Me section */
+.about-me {
+    background-color: #f0f0f0;  /* Light gray background */
+    color: #333;  /* Dark text */
+    padding: 20px;
+}
+
+/* Adding color to the Contact Me section */
+.contact {
+    background-color: #f8f9fa;  /* Light background for contact section */
+    color: #007bff;  /* Blue text */
+    padding: 20px;
+}
