@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelpHub - Charity Profile: Food for All</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Charity Profile: Food for All</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="charities.html">Charities List</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="charity-details">
+    <h2>Food for All</h2>
+    <p>Food for All is dedicated to alleviating hunger by providing meals and groceries to families in need. We believe no one should ever have to go hungry, and our goal is to make food accessible to everyone.</p>
+
+    <h3>Volunteer Opportunities</h3>
+    <p>We need volunteers to help distribute meals, pack food boxes, and assist with fundraising events. Your involvement can have a huge impact on those facing hunger.</p>
+
+    <button onclick="document.getElementById('volunteer-form').style.display='block'">Volunteer Now</button>
+    
+    <div id="volunteer-form" style="display:none;">
+      <h3>Sign Up to Volunteer</h3>
+      <form action="#" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HelpHub</p>
+  </footer>
+
+  <script src="charity_profile.js"></script>
+</body>
+</html>
